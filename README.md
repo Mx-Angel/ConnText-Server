@@ -1,1 +1,1 @@
-# -ConnText-Server
+# ConnText-Server
