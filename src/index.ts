@@ -1,10 +1,9 @@
 import fastify from 'fastify'
+import pingRoutes from './routes/RoomManager';
 
 const server = fastify();
 
-server.get('/ping', async (request, reply) => {
-  return 'pong\n'
-});
+server.register(pingRoutes, { prefix: '/api' });
 
 server.listen({ port: 8080 }, (err, address) => {
   if (err) {
