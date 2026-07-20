@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Compiled output
+dist/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Debug logs
+npm-debug.log*
+
+# npm cache
+.npm
+
+# Coverage output
+coverage/
+
+# OS files
+.DS_Store
