@@ -54,7 +54,8 @@ Configure your editor to format on save with Prettier for the best experience, f
 
 ### Git
 
-- All commits must be signed (`git commit -sm`)
+- All commits must be signed (`git commit -s`)
+- All commits must be verified
 - One feature or fix per branch
 - Branch naming: `feature/description` or `fix/description`
 - Link PRs to their corresponding issue
