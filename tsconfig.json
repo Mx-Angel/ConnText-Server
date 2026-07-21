@@ -40,5 +40,10 @@
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
     "skipLibCheck": true,
+
+    // ExpressJS Recommended Options
+    "rewriteRelativeImportExtensions": true,
+    "noEmit": true,
+    "erasableSyntaxOnly": true
   }
 }
