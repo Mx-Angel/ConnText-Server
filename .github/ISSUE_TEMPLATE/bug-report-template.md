@@ -6,10 +6,12 @@ labels: bug
 assignees: ''
 ---
 
-**Describe the bug**
+## Describe the bug
+
 <!-- A clear and concise description of what the bug is. -->
 
-**To Reproduce**
+## To Reproduce
+
 <!-- Steps to reproduce the behavior -->
 
 1. Go to '...'
@@ -17,14 +19,17 @@ assignees: ''
 3. Scroll down to '....'
 4. See error
 
-**Expected behavior**
+## Expected behavior
+
 <!-- A clear and concise description of what you expected to happen. -->
 
-**Device Details**
+## Device Details
+
 <!-- What version of our software are you running? (e.g., 1.0.2 (Default), 1.0.3 (Edge)) -->
 
-- Operating system: [e.g. Windows 10, macOS 11.2]
-- Software version: [e.g. 1.0.2]
+- Operating system: [e.g. Windows 10, macOS 15.8]
+- Software version: [e.g. v1.0.2]
 
-**Additional context**
+## Additional context
+
 <!-- Add any other context about the problem here. -->
