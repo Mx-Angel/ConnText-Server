@@ -19,4 +19,4 @@ To report a vulnerability:
 - Please ensure the reproducer is real-world and not simulated or abstracted.
 - Please ensure the reproducer demonstrably violates a security boundary.
 
-Note: Please understand that most of our maintainers are volunteers and al. While we will try to triage and fix issues in a timely manner, we cannot guarantee any fixed timeline for issue resolution.
+Note: Please understand that most of our maintainers are volunteers and while we will try to triage and fix issues in a timely manner, we cannot guarantee any fixed timeline for issue resolution.
