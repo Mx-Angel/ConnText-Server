@@ -6,11 +6,14 @@ labels: enhancement
 assignees: ''
 ---
 
-**Describe the feature**
+## Describe the feature
+
 <!-- A clear and concise description of what you want to happen. -->
 
-**Why is this feature needed?**
+## Why is this feature needed?
+
 <!-- A clear and concise description of why this feature is needed. -->
 
-**Additional context**
+## Additional context
+
 <!-- Add any other context about the problem here. -->
