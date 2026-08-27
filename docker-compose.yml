@@ -1,0 +1,26 @@
+name: ConnText-Server
+
+services:
+  db:
+    image: postgres:${DB_VERSION}
+    container_name: postgres-dev
+    restart: always
+    environment:
+    - POSTGRES_USER=${DB_USER}
+    - POSTGRES_PASSWORD=${DB_PASS}
+    - POSTGRES_DB=${DB_NAME}
+    networks:
+      - backend
+    ports:
+      - "127.0.0.1:${DB_PORT}:${DB_PORT}"
+    volumes:
+      - pg-data:/var/lib/postgresql
+
+volumes:
+  pg-data:
+    labels:
+      com.pg.description: "ConnText Database"
+
+networks:
+  backend:
+    driver: bridge
