@@ -1,9 +1,3 @@
----
-name: Pull Request
-about: Submit a pull request to improve this project
-labels: needs review
----
-
 ## Description
 
 <!-- Describe the change and why it's needed. Be specific. -->
