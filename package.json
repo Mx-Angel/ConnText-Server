@@ -36,9 +36,9 @@
     "typescript-eslint": "^8.65.0"
   },
   "dependencies": {
+    "@conntext/shared": "*",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
-    "pg": "^8.23.0",
-    "@conntext/shared": "*"
+    "pg": "^8.23.0"
   }
 }
