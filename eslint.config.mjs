@@ -1,14 +1,15 @@
+import { defineConfig } from 'eslint/config';
 import eslint from '@eslint/js';
 import tseslint from 'typescript-eslint';
-import prettierRecommended from 'eslint-config-prettier';
+import prettier from 'eslint-config-prettier/flat';
 
-export default tseslint.config(
+export default defineConfig([
   {
     ignores: ['dist/', 'node_modules/', 'coverage/'],
   },
   eslint.configs.recommended,
   ...tseslint.configs.recommendedTypeChecked,
-  prettierRecommended,
+  prettier,
   {
     languageOptions: {
       parserOptions: {
@@ -21,9 +22,9 @@ export default tseslint.config(
     files: ['**/*.ts'],
     rules: {
       '@typescript-eslint/no-array-delete': 'error',
-      '@typescript-eslint/consistent-type-assertions': 'warn',
-      '@typescript-eslint/no-confusing-non-null-assertion': 'warn',
-      '@typescript-eslint/explicit-function-return-type': 'warn',
+      '@typescript-eslint/consistent-type-assertions': 'error',
+      '@typescript-eslint/no-confusing-non-null-assertion': 'error',
+      '@typescript-eslint/explicit-function-return-type': 'error',
 
       // Severity overrides from recommendedTypeChecked
       '@typescript-eslint/no-explicit-any': 'warn',
@@ -37,4 +38,4 @@ export default tseslint.config(
       '@typescript-eslint/prefer-as-const': 'warn',
     },
   },
-);
+]);
